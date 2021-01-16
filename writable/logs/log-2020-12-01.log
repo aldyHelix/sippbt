@@ -1,0 +1,96 @@
+CRITICAL - 2020-12-01 20:54:19 --> Invalid file: layouts.master
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts.master')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layouts.master', Array, true)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\sippbt\app\Controllers\Home.php(7): view('welcome_message')
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-01 20:54:57 --> Invalid file: layouts.master
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts.master')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layouts.master', Array, true)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\sippbt\app\Controllers\Home.php(7): view('welcome_message')
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-01 20:56:04 --> Invalid file: layouts.master
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts.master')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layouts.master', Array, true)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\sippbt\app\Controllers\Home.php(7): view('welcome_message')
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-01 21:09:16 --> Invalid file: master.obat
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master.obat')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master.obat', Array, true)
+#2 D:\sippbt\app\Controllers\Home.php(7): view('master.obat')
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-01 21:10:54 --> Invalid file: master.dashboard
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master.dashboar...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master.dashboar...', Array, true)
+#2 D:\sippbt\app\Controllers\DashboardController.php(11): view('master.dashboar...')
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DashboardController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-01 21:21:56 --> Undefined variable: title
+#0 D:\sippbt\app\Views\layouts\master.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\sippbt\\app\\V...', 249, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layouts/master', Array, true)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/obat', Array, true)
+#4 D:\sippbt\app\Controllers\KelObatController.php(12): view('master/obat')
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->index()
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#7 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#10 {main}
+CRITICAL - 2020-12-01 21:22:05 --> Undefined variable: title
+#0 D:\sippbt\app\Views\layouts\master.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\sippbt\\app\\V...', 249, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('layouts/master', Array, true)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/dashboar...', Array, true)
+#4 D:\sippbt\app\Controllers\DashboardController.php(12): view('master/dashboar...', Array)
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DashboardController->index()
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#10 {main}
+CRITICAL - 2020-12-01 21:23:49 --> compact(): Undefined variable: obat
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'D:\\sippbt\\app\\C...', 13, Array)
+#1 D:\sippbt\app\Controllers\KelObatController.php(13): compact('obat')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->index()
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#7 {main}
+CRITICAL - 2020-12-01 23:12:38 --> Invalid file: master/dokter.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/dokter.p...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/dokter', Array, true)
+#2 D:\sippbt\app\Controllers\KelDokterController.php(13): view('master/dokter', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelDokterController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelDokterController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}

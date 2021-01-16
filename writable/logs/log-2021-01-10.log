@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-10 05:18:18 --> Undefined index: <button type="button" class="btn btn-block btn-warning btn-sm">Warning</button>
+#0 D:\sippbt\app\Views\master\obat\data.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\sippbt\\app\\V...', 46, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/obat/dat...', Array, true)
+#3 D:\sippbt\app\Controllers\KelObatController.php(31): view('master/obat/dat...', Array)
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2021-01-10 05:18:47 --> Undefined index: <button type="button" class="btn btn-block btn-warning btn-sm">Warning</button>
+#0 D:\sippbt\app\Views\master\obat\data.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\sippbt\\app\\V...', 46, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/obat/dat...', Array, true)
+#3 D:\sippbt\app\Controllers\KelObatController.php(31): view('master/obat/dat...', Array)
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}

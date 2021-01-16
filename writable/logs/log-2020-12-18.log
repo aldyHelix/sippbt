@@ -1,0 +1,66 @@
+CRITICAL - 2020-12-18 03:27:58 --> Undefined property: App\Controllers\KelObatController::$model
+#0 D:\sippbt\app\Controllers\KelObatController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\sippbt\\app\\C...', 17, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->create()
+#2 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#6 {main}
+CRITICAL - 2020-12-18 03:31:57 --> Unable to connect to the database.
+#0 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\sippbt\app\Controllers\KelObatController.php(18): CodeIgniter\Model->findAll()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->create()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-18 03:34:42 --> Unable to connect to the database.
+#0 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\sippbt\app\Controllers\KelObatController.php(18): CodeIgniter\Model->findAll()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->create()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-18 03:35:08 --> Unable to connect to the database.
+#0 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\sippbt\app\Controllers\KelObatController.php(18): CodeIgniter\Model->findAll()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->create()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-18 03:35:32 --> Unable to connect to the database.
+#0 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\sippbt\app\Controllers\KelObatController.php(18): CodeIgniter\Model->findAll()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->create()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2020-12-18 03:52:45 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\sippbt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ob...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ob...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ob...')
+#3 D:\sippbt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ob...', Array, false)
+#4 D:\sippbt\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\sippbt\app\Controllers\KelObatController.php(23): CodeIgniter\Model->save(Array)
+#7 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->create()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#9 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#12 {main}

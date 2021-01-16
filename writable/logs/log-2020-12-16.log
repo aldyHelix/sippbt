@@ -1,0 +1,40 @@
+CRITICAL - 2020-12-16 23:44:05 --> Invalid file: master/pasien/index.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/pasien/i...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pasien/i...', Array, true)
+#2 D:\sippbt\app\Controllers\KelPasienController.php(13): view('master/pasien/i...', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPasienController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPasienController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-16 23:46:38 --> Invalid file: master/pasien/index.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/pasien/i...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pasien/i...', Array, true)
+#2 D:\sippbt\app\Controllers\KelPasienController.php(13): view('master/pasien/i...', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPasienController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPasienController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-16 23:47:38 --> Invalid file: master/pasien/index.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/pasien/i...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pasien/i...', Array, true)
+#2 D:\sippbt\app\Controllers\KelPasienController.php(13): view('master/pasien/i...', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPasienController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPasienController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-16 23:48:03 --> Invalid file: master/pasien/index.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/pasien/i...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pasien/i...', Array, true)
+#2 D:\sippbt\app\Controllers\KelPasienController.php(13): view('master/pasien/i...', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPasienController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPasienController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}

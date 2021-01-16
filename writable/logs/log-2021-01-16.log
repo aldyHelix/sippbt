@@ -1,0 +1,47 @@
+CRITICAL - 2021-01-16 00:19:22 --> Undefined variable: data
+#0 D:\sippbt\app\Views\master\pemeriksaan\data.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\sippbt\\app\\V...', 34, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pemeriks...', Array, true)
+#3 D:\sippbt\app\Controllers\KelPemeriksaanController.php(36): view('master/pemeriks...', Array)
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPemeriksaanController->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPemeriksaanController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 00:22:45 --> Undefined variable: data
+#0 D:\sippbt\app\Views\master\pemeriksaan\data.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\sippbt\\app\\V...', 34, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pemeriks...', Array, true)
+#3 D:\sippbt\app\Controllers\KelPemeriksaanController.php(36): view('master/pemeriks...', Array)
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPemeriksaanController->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPemeriksaanController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}
+CRITICAL - 2021-01-16 01:45:40 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelDokterController->delete('8')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelDokterController))
+#2 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:47:55 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelDokterController->delete('9')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelDokterController))
+#2 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#5 {main}
+CRITICAL - 2021-01-16 01:51:21 --> Undefined variable: data
+#0 D:\sippbt\app\Views\master\pemeriksaan\data.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\sippbt\\app\\V...', 34, Array)
+#1 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\sippbt\\app\\V...')
+#2 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/pemeriks...', Array, true)
+#3 D:\sippbt\app\Controllers\KelPemeriksaanController.php(35): view('master/pemeriks...', Array)
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelPemeriksaanController->index()
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelPemeriksaanController))
+#6 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#9 {main}

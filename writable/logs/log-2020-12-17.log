@@ -1,0 +1,30 @@
+CRITICAL - 2020-12-17 00:55:06 --> Invalid file: master/dokter.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/dokter.p...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/dokter', Array, true)
+#2 D:\sippbt\app\Controllers\KelDokterController.php(13): view('master/dokter', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelDokterController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelDokterController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-17 00:55:13 --> Invalid file: master/dokter.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/dokter.p...')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/dokter', Array, true)
+#2 D:\sippbt\app\Controllers\KelDokterController.php(13): view('master/dokter', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelDokterController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelDokterController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
+CRITICAL - 2020-12-17 00:55:58 --> Invalid file: master/obat.php
+#0 D:\sippbt\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/obat.php')
+#1 D:\sippbt\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('master/obat', Array, true)
+#2 D:\sippbt\app\Controllers\KelObatController.php(13): view('master/obat', Array)
+#3 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\KelObatController->index()
+#4 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelObatController))
+#5 D:\sippbt\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\sippbt\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\sippbt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\sippbt\\publi...')
+#8 {main}
