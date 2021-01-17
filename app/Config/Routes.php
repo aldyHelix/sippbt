@@ -72,7 +72,12 @@ $routes->add('/laporan/update/(:num)', 'KelLaporanController::update/$1', ['as' 
 $routes->add('/laporan/delete/(:num)', 'KelLaporanController::delete/$1', ['as' => 'laporan.delete']);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'DashboardController::index', ['as' => 'dashboard']);
+$routes->get('/', 'DashboardController::index', ['as' => 'dashboard', 'filter' => 'auth']);
+// $routes->get('/login', 'LoginController::index', ['as' => 'login']);
+// $routes->get('/login/auth', 'LoginController::auth', ['as' => 'auth.login']);
+// $routes->get('/logout', 'LoginController::logout', ['as' => 'logout']);
+// $routes->get('/register', 'RegisterController::index', ['as' => 'register']);
+// $routes->get('/register/save', 'RegisterController::save', ['as' => 'save.register']);
 
 
 
