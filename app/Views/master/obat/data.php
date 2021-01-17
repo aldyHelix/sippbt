@@ -42,10 +42,10 @@
                          <td><?= $item['sisa_obat'] ?></td>
                          <td><?= $item['harga_obat'] ?></td>
                          <td> <a href="<?= route_to('obat.edit', $item['id_obat']) ?>" class="btn btn-warning btn-sm">Edit</a>
-                             <a href="#" onclick="getElementById('deleteData').submit()" class="btn  btn-danger btn-sm">Hapus</a>
+                             <a href="#" onclick="getElementById('deleteData<?= $item['id_obat']?>').submit()" class="btn  btn-danger btn-sm">Hapus</a>
                          </td>
 
-                         <form id="deleteData" action="<?= route_to('obat.delete', $item['id_obat']) ?>" method="post">
+                         <form id="deleteData<?= $item['id_obat']?>" action="<?= route_to('obat.delete', $item['id_obat']) ?>" method="post">
                              <?= csrf_field() ?>
                              <input type="hidden" name="_method" value="DELETE">
                          </form>

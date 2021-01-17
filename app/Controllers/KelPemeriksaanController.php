@@ -32,7 +32,7 @@ class KelPemeriksaanController extends Controller
     {
         $title = 'Kelola Pemeriksaan';
         $data = $this->pemeriksaanmodel->findAll();
-        return view('master/pemeriksaan/data', compact('title'));
+        return view('master/pemeriksaan/data', compact('title','data'));
     }
 
     public function create()

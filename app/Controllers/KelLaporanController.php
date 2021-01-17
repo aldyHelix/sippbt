@@ -33,7 +33,7 @@ class KelLaporanController extends Controller
     {
         $title = 'Kelola Laporan';
         $data = $this->laporanmodel->findAll();
-        return view('master/laporan/data', compact('title'));
+        return view('master/laporan/data', compact('title', 'data'));
     }
 
     public function create()
